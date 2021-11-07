@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+    color: white;
+
+}
+
+.search-form {
+    text-align: center;
+    justify-content: center;
+}
+
+.container {
+    display: inline;
+    grid-template-columns: auto;
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#remove {
+    padding: none;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(34, 180, 248);
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  
+#remove:focus {
+    outline: none;
+}
+  
+#remove:hover {
+    cursor: pointer;
+    background-color:rgb(2, 70, 255);
+}
